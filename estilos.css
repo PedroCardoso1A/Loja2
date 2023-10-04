@@ -1,0 +1,18 @@
+body {
+    background: #C0C0C0
+}
+
+#banner {
+    width: 100px;
+
+}
+
+.destaques {
+    background: #00ffee
+}
+
+strong{
+    color: red;
+   padding: 10px;
+}
+ 
