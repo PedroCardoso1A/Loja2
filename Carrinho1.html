@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .checkout-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+        .checkout-btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Carrinho de Compras</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>camiseta feminina social - helena azul escuro Xgg</td>
+                    <td>R$ 119,00</td>
+                    <td>1</td>
+                    <td>R$ 119,00</td>
+                </tr>          
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td>R$ 119,00</td>
+                </tr>
+            </tfoot>
+        </table>
+        <a href="#" class="checkout-btn">Finalizar Compra</a>
+    </div>
+</body>
+</html>
